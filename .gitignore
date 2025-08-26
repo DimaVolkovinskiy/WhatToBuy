@@ -1,0 +1,144 @@
+## Comprehensive .gitignore for .NET projects
+## Includes Visual Studio, VS Code, JetBrains, and other common tools
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio files
+.vs/
+*.sln.iml
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.e2e
+*.pidb
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.jfm
+**/Properties/launchSettings.json
+**/[Pp]roject[Ss]ettings.json
+**/[Ww]orkspace[Ss]tate.json
+**/*.VisualState.xml
+
+# VS Code files
+.vscode/
+.history/
+*.code-workspace
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+out/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/repositories.config
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!?*.[Cc]ache/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Visual Studio Code directories
+.ionide/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows shortcuts
+*.lnk
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# GitHub Copilot and VS IntelliSense cache
+**/[Cc]opilot[Ii]ndices/
+**/[Cc]ode[Cc]hunks.db
+**/[Cc]ode[Cc]hunks.db-shm
+**/[Cc]ode[Cc]hunks.db-wal
+**/[Ss]emantic[Ss]ymbols.db
+**/[Ss]emantic[Ss]ymbols.db-shm
+**/[Ss]emantic[Ss]ymbols.db-wal
+**/*.[Ff]ile[Cc]ontent[Ii]ndex/
+**/[Ff]ut[Dd]cache.v*
+**/[Dd]esign[Tt]ime[Bb]uild/
+**/*.futdcache.v*
+
+# Visual Studio document layout files
+**/[Dd]ocument[Ll]ayout*.json
+
+# Docker
+.dockerignore
+**/Dockerfile
+**/docker-compose*.yml
+**/*.metadata.v*.bin
+**/*.projects.v*.bin
+**/*.strings.v*.bin
+
+# Others
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+CodeCoverage/
+*.vsidx
